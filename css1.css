@@ -1,0 +1,40 @@
+﻿.triangle {
+	float:left;
+	margin:10px 30px 10px 60px;
+	overflow:hidden;
+}
+.triangle img{
+        margin:-15px -190px -40px -180px;
+}
+input {
+	width: 80px;
+	position: absolute;
+}
+#sideA {
+	left: 210px;
+	top: 95px;
+}
+#sideB {
+	left: 110px;
+	top: 190px;
+}
+#sideC {
+	left: 5px;
+	top: 95px;
+}
+body {
+	position: relative;
+}
+#output {
+	position: absolute;
+	top: 230px;
+}
+#result {
+	position: absolute;
+	top: 260px;
+}
+#message {
+	position: absolute;
+	top: 230px;
+	left: 220px;
+}
