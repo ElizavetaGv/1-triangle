@@ -22,5 +22,5 @@ function findHeight(sideA,sideB,sideC) {
 	var hA=num/sideA;
 	var hB=num/sideB;
 	var hC=num/sideC;
-	document.getElementById('result').innerHTML="<p>hA=" + hA + "</p>"+"<p>hB=" + hB + "</p>"+"<p>hC=" + hC + "</p>";
+	document.getElementById('result').innerHTML="<p>hA=" + hA.toLocaleString() + "</p>"+"<p>hB=" + hB.toLocaleString() + "</p>"+"<p>hC=" + hC.toLocaleString() + "</p>";
 }
